@@ -11,6 +11,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --bs-color-1-rgb: 118,66,43; /* Aandacht ; was orange #f4623a */ 
+  --bs-color-1: rgb(var( --bs-color-1-rgb));
+
+
+
   --bs-col1: var(--bs-orange);
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -35,7 +40,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: rgb(34, 52, 38);
+  --bs-primary: rgb(20, 57, 50);
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -43,7 +48,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 37, 65, 44;
+  --bs-primary-rgb: 20, 57,50;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -2847,7 +2852,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #f4623a;
+  --bs-btn-bg: #f4623a; 
   --bs-btn-border-color: #f4623a;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #cf5331;
