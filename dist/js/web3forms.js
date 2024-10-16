@@ -63,10 +63,10 @@
               .then(function () {
                /* form.reset();*/
                 form.classList.remove("was-validated");
-               /* setTimeout(() => {
+                setTimeout(() => {
                   result.style.display = "none";
                   result.classList.add("d-none");
-                }, 5000);*/
+                }, 5000);
               });
           }
           form.classList.add("was-validated");
